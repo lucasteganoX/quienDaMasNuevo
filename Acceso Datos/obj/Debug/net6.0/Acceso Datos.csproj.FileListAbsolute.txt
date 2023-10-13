@@ -1,0 +1,12 @@
+C:\Users\sgh4n\OneDrive\Escritorio\Quienda mas\Quienda mas\Acceso Datos\bin\Debug\net6.0\Acceso Datos.deps.json
+C:\Users\sgh4n\OneDrive\Escritorio\Quienda mas\Quienda mas\Acceso Datos\bin\Debug\net6.0\Acceso Datos.dll
+C:\Users\sgh4n\OneDrive\Escritorio\Quienda mas\Quienda mas\Acceso Datos\bin\Debug\net6.0\Acceso Datos.pdb
+C:\Users\sgh4n\OneDrive\Escritorio\Quienda mas\Quienda mas\Acceso Datos\obj\Debug\net6.0\Acceso Datos.csproj.AssemblyReference.cache
+C:\Users\sgh4n\OneDrive\Escritorio\Quienda mas\Quienda mas\Acceso Datos\obj\Debug\net6.0\Acceso Datos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sgh4n\OneDrive\Escritorio\Quienda mas\Quienda mas\Acceso Datos\obj\Debug\net6.0\Acceso Datos.AssemblyInfoInputs.cache
+C:\Users\sgh4n\OneDrive\Escritorio\Quienda mas\Quienda mas\Acceso Datos\obj\Debug\net6.0\Acceso Datos.AssemblyInfo.cs
+C:\Users\sgh4n\OneDrive\Escritorio\Quienda mas\Quienda mas\Acceso Datos\obj\Debug\net6.0\Acceso Datos.csproj.CoreCompileInputs.cache
+C:\Users\sgh4n\OneDrive\Escritorio\Quienda mas\Quienda mas\Acceso Datos\obj\Debug\net6.0\Acceso Datos.dll
+C:\Users\sgh4n\OneDrive\Escritorio\Quienda mas\Quienda mas\Acceso Datos\obj\Debug\net6.0\refint\Acceso Datos.dll
+C:\Users\sgh4n\OneDrive\Escritorio\Quienda mas\Quienda mas\Acceso Datos\obj\Debug\net6.0\Acceso Datos.pdb
+C:\Users\sgh4n\OneDrive\Escritorio\Quienda mas\Quienda mas\Acceso Datos\obj\Debug\net6.0\ref\Acceso Datos.dll

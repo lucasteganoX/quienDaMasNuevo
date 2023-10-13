@@ -1,0 +1,15 @@
+C:\Users\sgh4n\OneDrive\Escritorio\Quienda mas\Quienda mas\Presentacion\obj\Debug\net6.0-windows\Presentacion.Administracion_Sujetos.Formulario_Administracion_Sujetos.resources
+C:\Users\sgh4n\OneDrive\Escritorio\Quienda mas\Quienda mas\Presentacion\obj\Debug\net6.0-windows\Presentacion.Form1.resources
+C:\Users\sgh4n\OneDrive\Escritorio\Quienda mas\Quienda mas\Presentacion\obj\Debug\net6.0-windows\Presentacion.Formulario_Login.Formulario_Login.resources
+C:\Users\sgh4n\OneDrive\Escritorio\Quienda mas\Quienda mas\Presentacion\obj\Debug\net6.0-windows\Presentacion.Gestion_Productos.Gestion_Productos.resources
+C:\Users\sgh4n\OneDrive\Escritorio\Quienda mas\Quienda mas\Presentacion\obj\Debug\net6.0-windows\Presentacion.Gestion_Productos.Gestion_Productos_Quitar_Fotos.resources
+C:\Users\sgh4n\OneDrive\Escritorio\Quienda mas\Quienda mas\Presentacion\obj\Debug\net6.0-windows\Presentacion.Gestion_Productos.Gestion_Productos_Ver_Fotos.resources
+C:\Users\sgh4n\OneDrive\Escritorio\Quienda mas\Quienda mas\Presentacion\obj\Debug\net6.0-windows\Presentacion.Gestion_Productos.Manejo_de_Fotos.Visualizar_Foto.resources
+C:\Users\sgh4n\OneDrive\Escritorio\Quienda mas\Quienda mas\Presentacion\obj\Debug\net6.0-windows\Presentacion.Gestion_Productos.Gestion_Productos_Tipado_Animal.resources
+C:\Users\sgh4n\OneDrive\Escritorio\Quienda mas\Quienda mas\Presentacion\obj\Debug\net6.0-windows\Presentacion.Gestion_Productos.Tipado_Productos.Gestion_Productos_Tipado_Maquinaria.resources
+C:\Users\sgh4n\OneDrive\Escritorio\Quienda mas\Quienda mas\Presentacion\obj\Debug\net6.0-windows\Presentacion.csproj.GenerateResource.cache
+C:\Users\sgh4n\OneDrive\Escritorio\Quienda mas\Quienda mas\Presentacion\obj\Debug\net6.0-windows\Presentacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sgh4n\OneDrive\Escritorio\Quienda mas\Quienda mas\Presentacion\obj\Debug\net6.0-windows\Presentacion.AssemblyInfoInputs.cache
+C:\Users\sgh4n\OneDrive\Escritorio\Quienda mas\Quienda mas\Presentacion\obj\Debug\net6.0-windows\Presentacion.AssemblyInfo.cs
+C:\Users\sgh4n\OneDrive\Escritorio\Quienda mas\Quienda mas\Presentacion\obj\Debug\net6.0-windows\Presentacion.csproj.CoreCompileInputs.cache
+C:\Users\sgh4n\OneDrive\Escritorio\Quienda mas\Quienda mas\Presentacion\obj\Debug\net6.0-windows\Presentacion.csproj.AssemblyReference.cache

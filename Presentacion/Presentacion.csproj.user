@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="Administracion_Sujetos\Formulario_Administracion_Sujetos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formulario_Login\Formulario_Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formulario_Login\Formulario_Login.Mirador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Gestion_Productos\Gestion_Productos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Gestion_Productos\Manejo de Fotos\Gestion_Productos.Quitar_Fotos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Gestion_Productos\Manejo de Fotos\Gestion_Productos.Ver_Fotos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Gestion_Productos\Manejo de Fotos\Visualizar_Foto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Gestion_Productos\Tipado Productos\Gestion_Productos.Tipado_Animal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Gestion_Productos\Tipado Productos\Gestion_Productos_Tipado_Maquinaria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Librerias Locales\RJToggleButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

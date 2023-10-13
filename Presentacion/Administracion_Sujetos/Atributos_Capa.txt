@@ -1,0 +1,18 @@
+Recientemente mi mentalidad respecto a lo que debo hacer con este programa ha cambiado considerablemente. Por tanto en este documento voy a manifestar mis contra intensiones y algunos peros que surguiran....
+Planeaba hacer de esta herramienta un programa de calidad nutriendolo de algunas caracteristicas como:
+* Edicion multi capa
+	Con esto me refiero a que puedieras editar una capa, cambiar a otra, y si en algun momento volvieras a la anterior se mantendria tu progreso. Para suplementar esta caracteristica pensaba agregar otras...
+* Senales visuales del estado de una capa en la grilla
+	Si una capa fuera creada, eliminada o modificada, en la grilla este estado te seria marcado mediante indicaciones de colores.
+* Senales de que tipos de capa fueron editados
+	Si te pusiste a editar las Personas por ejemplo, al momento de pasar a editar Usuarios o otros tipos de capa, se indicaria con una linea de color debajo de el boton Personas que cambios fueron hechos en tal seccion.
+* Capacidad de rollback
+	Al momento de cerrar la ventana decidirias si aplicar realmente los cambios o no. En caso de que no, los cambios serian descartados.
+* Bloqueo de capas en edicion
+	En un entorno real, si dos o mas personas trataran de editar una misma capa se puede armar cuaquier desastre. La manera mas simple de resolver esto es bloquearla. Que el sistema te impida editar una capa si alguien ya lo esta haciendo.
+* Seguro para edicion
+	Un pequeno candadito que te impida editar los atributos de las capas mientras esta activo. Util para que tu gato no lleve accidentalmente a la quierbra a la empresa en lo que te fuiste a hacerte un cafe.
+* Un buscador
+	Todo es muy cool hasta que tienes 350 entradas en una grilla. Ahi un buscador es 100% necesario.
+
+Pero no voy a poner nada de eso. Si no bajo la calidad de lo que quiero conseguir no hay manera de que llege a la fecha limite. Tratare de apegarme a lo basico. Si me sobrara tiempo, tratare de mejorar el producto en lo que pueda.
