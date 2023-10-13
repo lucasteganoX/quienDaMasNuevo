@@ -1,0 +1,9 @@
+# Todos los archivos de funcionamiento de Visual Studio
+.vs/
+bin/
+obj/
+
+# Todos los archivos insumo
+**/*.log
+**/*.tmp
+**/.
