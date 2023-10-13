@@ -9,6 +9,7 @@ namespace Pruebas
                         Console.WriteLine("Hello, World!" +
                                 "Mota mariguana, droga y erecciones");
                         Console.WriteLine("Tengo la camisa negra, porque negra tengo el alma, yo por ti perdi la calma y casi pierdo hasta mi cama.") ;
+                        Console.WriteLine("Hola") ;
                 }
         }
 }
