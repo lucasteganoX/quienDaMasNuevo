@@ -1,0 +1,79 @@
+C:\Users\sgh4n\OneDrive\Escritorio\Quienda mas\Quienda mas\Presentacion\obj\Debug\net6.0-windows\Presentacion.Administracion_Sujetos.Formulario_Administracion_Sujetos.resources
+C:\Users\sgh4n\OneDrive\Escritorio\Quienda mas\Quienda mas\Presentacion\obj\Debug\net6.0-windows\Presentacion.Form1.resources
+C:\Users\sgh4n\OneDrive\Escritorio\Quienda mas\Quienda mas\Presentacion\obj\Debug\net6.0-windows\Presentacion.Formulario_Login.Formulario_Login.resources
+C:\Users\sgh4n\OneDrive\Escritorio\Quienda mas\Quienda mas\Presentacion\obj\Debug\net6.0-windows\Presentacion.Gestion_Productos.Gestion_Productos.resources
+C:\Users\sgh4n\OneDrive\Escritorio\Quienda mas\Quienda mas\Presentacion\obj\Debug\net6.0-windows\Presentacion.Gestion_Productos.Gestion_Productos_Quitar_Fotos.resources
+C:\Users\sgh4n\OneDrive\Escritorio\Quienda mas\Quienda mas\Presentacion\obj\Debug\net6.0-windows\Presentacion.Gestion_Productos.Gestion_Productos_Ver_Fotos.resources
+C:\Users\sgh4n\OneDrive\Escritorio\Quienda mas\Quienda mas\Presentacion\obj\Debug\net6.0-windows\Presentacion.Gestion_Productos.Manejo_de_Fotos.Visualizar_Foto.resources
+C:\Users\sgh4n\OneDrive\Escritorio\Quienda mas\Quienda mas\Presentacion\obj\Debug\net6.0-windows\Presentacion.Gestion_Productos.Gestion_Productos_Tipado_Animal.resources
+C:\Users\sgh4n\OneDrive\Escritorio\Quienda mas\Quienda mas\Presentacion\obj\Debug\net6.0-windows\Presentacion.Gestion_Productos.Tipado_Productos.Gestion_Productos_Tipado_Maquinaria.resources
+C:\Users\sgh4n\OneDrive\Escritorio\Quienda mas\Quienda mas\Presentacion\obj\Debug\net6.0-windows\Presentacion.csproj.GenerateResource.cache
+C:\Users\sgh4n\OneDrive\Escritorio\Quienda mas\Quienda mas\Presentacion\obj\Debug\net6.0-windows\Presentacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sgh4n\OneDrive\Escritorio\Quienda mas\Quienda mas\Presentacion\obj\Debug\net6.0-windows\Presentacion.AssemblyInfoInputs.cache
+C:\Users\sgh4n\OneDrive\Escritorio\Quienda mas\Quienda mas\Presentacion\obj\Debug\net6.0-windows\Presentacion.AssemblyInfo.cs
+C:\Users\sgh4n\OneDrive\Escritorio\Quienda mas\Quienda mas\Presentacion\obj\Debug\net6.0-windows\Presentacion.csproj.CoreCompileInputs.cache
+C:\Users\sgh4n\OneDrive\Escritorio\Quienda mas\Quienda mas\Presentacion\obj\Debug\net6.0-windows\Presentacion.csproj.AssemblyReference.cache
+C:\Users\sgh4n\OneDrive\Escritorio\Quien Da Mas(definitivo)\Quienda mas\Presentacion\bin\Debug\net6.0-windows\Presentacion.deps.json
+C:\Users\sgh4n\OneDrive\Escritorio\Quien Da Mas(definitivo)\Quienda mas\Presentacion\bin\Debug\net6.0-windows\Presentacion.dll
+C:\Users\sgh4n\OneDrive\Escritorio\Quien Da Mas(definitivo)\Quienda mas\Presentacion\bin\Debug\net6.0-windows\Presentacion.pdb
+C:\Users\sgh4n\OneDrive\Escritorio\Quien Da Mas(definitivo)\Quienda mas\Presentacion\bin\Debug\net6.0-windows\Acceso Datos.dll
+C:\Users\sgh4n\OneDrive\Escritorio\Quien Da Mas(definitivo)\Quienda mas\Presentacion\bin\Debug\net6.0-windows\Logica.dll
+C:\Users\sgh4n\OneDrive\Escritorio\Quien Da Mas(definitivo)\Quienda mas\Presentacion\bin\Debug\net6.0-windows\Logica.pdb
+C:\Users\sgh4n\OneDrive\Escritorio\Quien Da Mas(definitivo)\Quienda mas\Presentacion\bin\Debug\net6.0-windows\Acceso Datos.pdb
+C:\Users\sgh4n\OneDrive\Escritorio\Quien Da Mas(definitivo)\Quienda mas\Presentacion\obj\Debug\net6.0-windows\Presentacion.csproj.AssemblyReference.cache
+C:\Users\sgh4n\OneDrive\Escritorio\Quien Da Mas(definitivo)\Quienda mas\Presentacion\obj\Debug\net6.0-windows\Presentacion.Administracion_Sujetos.Formulario_Administracion_Sujetos.resources
+C:\Users\sgh4n\OneDrive\Escritorio\Quien Da Mas(definitivo)\Quienda mas\Presentacion\obj\Debug\net6.0-windows\Presentacion.Gestion_Productos.Gestion_Productos.resources
+C:\Users\sgh4n\OneDrive\Escritorio\Quien Da Mas(definitivo)\Quienda mas\Presentacion\obj\Debug\net6.0-windows\Presentacion.Gestion_Productos.Gestion_Productos_Quitar_Fotos.resources
+C:\Users\sgh4n\OneDrive\Escritorio\Quien Da Mas(definitivo)\Quienda mas\Presentacion\obj\Debug\net6.0-windows\Presentacion.Gestion_Productos.Gestion_Productos_Ver_Fotos.resources
+C:\Users\sgh4n\OneDrive\Escritorio\Quien Da Mas(definitivo)\Quienda mas\Presentacion\obj\Debug\net6.0-windows\Presentacion.Gestion_Productos.Manejo_de_Fotos.Visualizar_Foto.resources
+C:\Users\sgh4n\OneDrive\Escritorio\Quien Da Mas(definitivo)\Quienda mas\Presentacion\obj\Debug\net6.0-windows\Presentacion.Gestion_Productos.Gestion_Productos_Tipado_Animal.resources
+C:\Users\sgh4n\OneDrive\Escritorio\Quien Da Mas(definitivo)\Quienda mas\Presentacion\obj\Debug\net6.0-windows\Presentacion.Gestion_Productos.Tipado_Productos.Gestion_Productos_Tipado_Maquinaria.resources
+C:\Users\sgh4n\OneDrive\Escritorio\Quien Da Mas(definitivo)\Quienda mas\Presentacion\obj\Debug\net6.0-windows\Presentacion.csproj.GenerateResource.cache
+C:\Users\sgh4n\OneDrive\Escritorio\Quien Da Mas(definitivo)\Quienda mas\Presentacion\obj\Debug\net6.0-windows\Presentacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sgh4n\OneDrive\Escritorio\Quien Da Mas(definitivo)\Quienda mas\Presentacion\obj\Debug\net6.0-windows\Presentacion.AssemblyInfoInputs.cache
+C:\Users\sgh4n\OneDrive\Escritorio\Quien Da Mas(definitivo)\Quienda mas\Presentacion\obj\Debug\net6.0-windows\Presentacion.AssemblyInfo.cs
+C:\Users\sgh4n\OneDrive\Escritorio\Quien Da Mas(definitivo)\Quienda mas\Presentacion\obj\Debug\net6.0-windows\Presentacion.csproj.CoreCompileInputs.cache
+C:\Users\sgh4n\OneDrive\Escritorio\Quien Da Mas(definitivo)\Quienda mas\Presentacion\obj\Debug\net6.0-windows\Presentacion.csproj.CopyComplete
+C:\Users\sgh4n\OneDrive\Escritorio\Quien Da Mas(definitivo)\Quienda mas\Presentacion\obj\Debug\net6.0-windows\Presentacion.dll
+C:\Users\sgh4n\OneDrive\Escritorio\Quien Da Mas(definitivo)\Quienda mas\Presentacion\obj\Debug\net6.0-windows\refint\Presentacion.dll
+C:\Users\sgh4n\OneDrive\Escritorio\Quien Da Mas(definitivo)\Quienda mas\Presentacion\obj\Debug\net6.0-windows\Presentacion.pdb
+C:\Users\sgh4n\OneDrive\Escritorio\Quien Da Mas(definitivo)\Quienda mas\Presentacion\obj\Debug\net6.0-windows\ref\Presentacion.dll
+C:\Users\sgh4n\OneDrive\Escritorio\Quien Da Mas(definitivo)\Quienda mas\Presentacion\obj\Debug\net6.0-windows\Presentacion.Gestion_Lotes.Gestion_Lotes.resources
+C:\Users\sgh4n\OneDrive\Escritorio\Quien Da Mas(definitivo)\Quienda mas\Presentacion\obj\Debug\net6.0-windows\Presentacion.Librerias_Locales.CustomControl1.resources
+C:\Users\sgh4n\OneDrive\Escritorio\Quien Da Mas(definitivo)\Quienda mas\Presentacion\obj\Debug\net6.0-windows\Presentacion.Librerias_Locales.CuteButton.resources
+C:\Users\sgh4n\OneDrive\Escritorio\Quien Da Mas(definitivo)\Quienda mas\Presentacion\obj\Debug\net6.0-windows\Presentacion.Librerias_Locales.RJToggleButton.resources
+C:\Users\sgh4n\OneDrive\Escritorio\Quien Da Mas(definitivo)\Quienda mas\Presentacion\obj\Debug\net6.0-windows\Presentacion.Gestion_Lotes.Buscar_Por_Producto.resources
+C:\Users\sgh4n\OneDrive\Escritorio\Quien Da Mas(definitivo)\Quienda mas\Presentacion\obj\Debug\net6.0-windows\Presentacion.Gestion_Remates.Gestion_Remates.resources
+C:\Users\sgh4n\OneDrive\Escritorio\Quien Da Mas(definitivo)\Quienda mas\Presentacion\obj\Debug\net6.0-windows\Presentacion.Gestion_Remates.Buscar_Por_Elemento.resources
+C:\Users\sgh4n\OneDrive\Escritorio\Quien Da Mas(definitivo)\Quienda mas\Presentacion\obj\Debug\net6.0-windows\Presentacion.Hub_Menu_Principal.Hub_Menu_Principal.resources
+C:\Users\sgh4n\OneDrive\Escritorio\Quien Da Mas(definitivo)\Quienda mas\Presentacion\obj\Debug\net6.0-windows\Presentacion.Properties.Resources.resources
+C:\Users\sgh4n\OneDrive\Escritorio\Quien Da Mas(definitivo)\Quienda mas\Presentacion\obj\Debug\net6.0-windows\Presentacion.Login.Login.resources
+C:\Users\sgh4n\OneDrive\Escritorio\Quien Da Mas(definitivo)\Quienda mas\Presentacion\bin\Debug\net6.0-windows\Presentacion.exe
+C:\Users\sgh4n\OneDrive\Escritorio\Quien Da Mas(definitivo)\Quienda mas\Presentacion\bin\Debug\net6.0-windows\Presentacion.runtimeconfig.json
+C:\Users\sgh4n\OneDrive\Escritorio\Quien Da Mas(definitivo)\Quienda mas\Presentacion\bin\Debug\net6.0-windows\Google.Protobuf.dll
+C:\Users\sgh4n\OneDrive\Escritorio\Quien Da Mas(definitivo)\Quienda mas\Presentacion\bin\Debug\net6.0-windows\K4os.Compression.LZ4.dll
+C:\Users\sgh4n\OneDrive\Escritorio\Quien Da Mas(definitivo)\Quienda mas\Presentacion\bin\Debug\net6.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\sgh4n\OneDrive\Escritorio\Quien Da Mas(definitivo)\Quienda mas\Presentacion\bin\Debug\net6.0-windows\K4os.Hash.xxHash.dll
+C:\Users\sgh4n\OneDrive\Escritorio\Quien Da Mas(definitivo)\Quienda mas\Presentacion\bin\Debug\net6.0-windows\MySql.Data.dll
+C:\Users\sgh4n\OneDrive\Escritorio\Quien Da Mas(definitivo)\Quienda mas\Presentacion\bin\Debug\net6.0-windows\BouncyCastle.Crypto.dll
+C:\Users\sgh4n\OneDrive\Escritorio\Quien Da Mas(definitivo)\Quienda mas\Presentacion\bin\Debug\net6.0-windows\System.Diagnostics.DiagnosticSource.dll
+C:\Users\sgh4n\OneDrive\Escritorio\Quien Da Mas(definitivo)\Quienda mas\Presentacion\bin\Debug\net6.0-windows\System.IO.Pipelines.dll
+C:\Users\sgh4n\OneDrive\Escritorio\Quien Da Mas(definitivo)\Quienda mas\Presentacion\bin\Debug\net6.0-windows\System.Text.Encodings.Web.dll
+C:\Users\sgh4n\OneDrive\Escritorio\Quien Da Mas(definitivo)\Quienda mas\Presentacion\bin\Debug\net6.0-windows\System.Text.Json.dll
+C:\Users\sgh4n\OneDrive\Escritorio\Quien Da Mas(definitivo)\Quienda mas\Presentacion\bin\Debug\net6.0-windows\ZstdSharp.dll
+C:\Users\sgh4n\OneDrive\Escritorio\Quien Da Mas(definitivo)\Quienda mas\Presentacion\bin\Debug\net6.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\sgh4n\OneDrive\Escritorio\Quien Da Mas(definitivo)\Quienda mas\Presentacion\bin\Debug\net6.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\sgh4n\OneDrive\Escritorio\Quien Da Mas(definitivo)\Quienda mas\Presentacion\bin\Debug\net6.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\sgh4n\OneDrive\Escritorio\Quien Da Mas(definitivo)\Quienda mas\Presentacion\bin\Debug\net6.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\sgh4n\OneDrive\Escritorio\Quien Da Mas(definitivo)\Quienda mas\Presentacion\bin\Debug\net6.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\sgh4n\OneDrive\Escritorio\Quien Da Mas(definitivo)\Quienda mas\Presentacion\bin\Debug\net6.0-windows\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\sgh4n\OneDrive\Escritorio\Quien Da Mas(definitivo)\Quienda mas\Presentacion\obj\Debug\net6.0-windows\Presentacion.genruntimeconfig.cache
+C:\Users\sgh4n\OneDrive\Escritorio\Quien Da Mas(definitivo)\Quienda mas\Presentacion\obj\Debug\net6.0-windows\Presentacion.Gestion_Sujetos.Gestion_Sujetos.resources
+C:\Users\sgh4n\OneDrive\Escritorio\Quien Da Mas(definitivo)\Quienda mas\Presentacion\obj\Debug\net6.0-windows\Presentacion.Librerias_Locales.Selector_Capas.resources
+C:\Users\sgh4n\OneDrive\Escritorio\Quien Da Mas(definitivo)\Quienda mas\Presentacion\bin\Debug\net6.0-windows\MercadoPago.dll
+C:\Users\sgh4n\OneDrive\Escritorio\Quien Da Mas(definitivo)\Quienda mas\Presentacion\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\sgh4n\OneDrive\Escritorio\Quien Da Mas(definitivo)\Quienda mas\Presentacion\obj\Debug\net6.0-windows\Presentacion.Gestion_Sujetos.Gestion_Tareas_Empleado.resources
+C:\Users\sgh4n\OneDrive\Escritorio\Quien Da Mas(definitivo)\Quienda mas\Presentacion\obj\Debug\net6.0-windows\Presentacion.Gestion_Sujetos.Seleccionar_Tarea_Empleado.resources
+C:\Users\sgh4n\OneDrive\Escritorio\Quien Da Mas(definitivo)\Quienda mas\Presentacion\obj\Debug\net6.0-windows\Presentacion.Gestion_Sujetos.Seleccion_Sujeto_Capa.resources
+C:\Users\sgh4n\OneDrive\Escritorio\Quien Da Mas(definitivo)\Quienda mas\Presentacion\obj\Debug\net6.0-windows\Presentacion.Registro.Registro.resources
+C:\Users\sgh4n\OneDrive\Escritorio\Quien Da Mas(definitivo)\Quienda mas\Presentacion\obj\Debug\net6.0-windows\Presentacion.Librerias_Locales.TextBoxSeguro.resources

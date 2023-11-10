@@ -1,0 +1,30 @@
+C:\Users\sgh4n\OneDrive\Escritorio\Quienda mas\Quienda mas\Logica\bin\Debug\net6.0\Logica.deps.json
+C:\Users\sgh4n\OneDrive\Escritorio\Quienda mas\Quienda mas\Logica\bin\Debug\net6.0\Logica.dll
+C:\Users\sgh4n\OneDrive\Escritorio\Quienda mas\Quienda mas\Logica\bin\Debug\net6.0\Logica.pdb
+C:\Users\sgh4n\OneDrive\Escritorio\Quienda mas\Quienda mas\Logica\bin\Debug\net6.0\Acceso Datos.dll
+C:\Users\sgh4n\OneDrive\Escritorio\Quienda mas\Quienda mas\Logica\bin\Debug\net6.0\Acceso Datos.pdb
+C:\Users\sgh4n\OneDrive\Escritorio\Quienda mas\Quienda mas\Logica\obj\Debug\net6.0\Logica.csproj.AssemblyReference.cache
+C:\Users\sgh4n\OneDrive\Escritorio\Quienda mas\Quienda mas\Logica\obj\Debug\net6.0\Logica.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sgh4n\OneDrive\Escritorio\Quienda mas\Quienda mas\Logica\obj\Debug\net6.0\Logica.AssemblyInfoInputs.cache
+C:\Users\sgh4n\OneDrive\Escritorio\Quienda mas\Quienda mas\Logica\obj\Debug\net6.0\Logica.AssemblyInfo.cs
+C:\Users\sgh4n\OneDrive\Escritorio\Quienda mas\Quienda mas\Logica\obj\Debug\net6.0\Logica.csproj.CoreCompileInputs.cache
+C:\Users\sgh4n\OneDrive\Escritorio\Quienda mas\Quienda mas\Logica\obj\Debug\net6.0\Logica.csproj.CopyComplete
+C:\Users\sgh4n\OneDrive\Escritorio\Quienda mas\Quienda mas\Logica\obj\Debug\net6.0\Logica.dll
+C:\Users\sgh4n\OneDrive\Escritorio\Quienda mas\Quienda mas\Logica\obj\Debug\net6.0\refint\Logica.dll
+C:\Users\sgh4n\OneDrive\Escritorio\Quienda mas\Quienda mas\Logica\obj\Debug\net6.0\Logica.pdb
+C:\Users\sgh4n\OneDrive\Escritorio\Quienda mas\Quienda mas\Logica\obj\Debug\net6.0\ref\Logica.dll
+C:\Users\sgh4n\OneDrive\Escritorio\Quien Da Mas(definitivo)\Quienda mas\Logica\bin\Debug\net6.0\Logica.deps.json
+C:\Users\sgh4n\OneDrive\Escritorio\Quien Da Mas(definitivo)\Quienda mas\Logica\bin\Debug\net6.0\Logica.dll
+C:\Users\sgh4n\OneDrive\Escritorio\Quien Da Mas(definitivo)\Quienda mas\Logica\bin\Debug\net6.0\Logica.pdb
+C:\Users\sgh4n\OneDrive\Escritorio\Quien Da Mas(definitivo)\Quienda mas\Logica\bin\Debug\net6.0\Acceso Datos.dll
+C:\Users\sgh4n\OneDrive\Escritorio\Quien Da Mas(definitivo)\Quienda mas\Logica\bin\Debug\net6.0\Acceso Datos.pdb
+C:\Users\sgh4n\OneDrive\Escritorio\Quien Da Mas(definitivo)\Quienda mas\Logica\obj\Debug\net6.0\Logica.csproj.AssemblyReference.cache
+C:\Users\sgh4n\OneDrive\Escritorio\Quien Da Mas(definitivo)\Quienda mas\Logica\obj\Debug\net6.0\Logica.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sgh4n\OneDrive\Escritorio\Quien Da Mas(definitivo)\Quienda mas\Logica\obj\Debug\net6.0\Logica.AssemblyInfoInputs.cache
+C:\Users\sgh4n\OneDrive\Escritorio\Quien Da Mas(definitivo)\Quienda mas\Logica\obj\Debug\net6.0\Logica.AssemblyInfo.cs
+C:\Users\sgh4n\OneDrive\Escritorio\Quien Da Mas(definitivo)\Quienda mas\Logica\obj\Debug\net6.0\Logica.csproj.CoreCompileInputs.cache
+C:\Users\sgh4n\OneDrive\Escritorio\Quien Da Mas(definitivo)\Quienda mas\Logica\obj\Debug\net6.0\Logica.csproj.CopyComplete
+C:\Users\sgh4n\OneDrive\Escritorio\Quien Da Mas(definitivo)\Quienda mas\Logica\obj\Debug\net6.0\Logica.dll
+C:\Users\sgh4n\OneDrive\Escritorio\Quien Da Mas(definitivo)\Quienda mas\Logica\obj\Debug\net6.0\refint\Logica.dll
+C:\Users\sgh4n\OneDrive\Escritorio\Quien Da Mas(definitivo)\Quienda mas\Logica\obj\Debug\net6.0\Logica.pdb
+C:\Users\sgh4n\OneDrive\Escritorio\Quien Da Mas(definitivo)\Quienda mas\Logica\obj\Debug\net6.0\ref\Logica.dll
