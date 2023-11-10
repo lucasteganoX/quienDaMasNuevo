@@ -91,12 +91,12 @@ public class Clase_Sujeto
                 }
         }
 
-        public string? Clave_Primaria_Proveedor
+        public int? ID_Proveedor
         {
                 get
                 {
                         if ( this.Persona == null || this.Proveedor == null ) { return null ; }
-                        return this.Persona!.ID! + ", " + this.Proveedor!.ID! ;
+                        return Proveedor.ID ;
                 }
 
                 // los this se podrían obvíar, simplificando los nombres, pero quizás se ve mejor así. Nc, despúes consulto con alguna gente.

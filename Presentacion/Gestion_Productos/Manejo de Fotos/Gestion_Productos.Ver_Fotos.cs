@@ -16,12 +16,12 @@ namespace Presentacion.Gestion_Productos
 {
         public partial class Gestion_Productos_Ver_Fotos : Form
         {
-                public Gestion_Productos_Ver_Fotos(Logica.Sistema_de_cosas_a_subastar.Naturaleza_de_las_cosas_a_subastar.Producto Producto_En_Edicion)
+                public Gestion_Productos_Ver_Fotos( byte[][] Fotos_Producto_Seleccionado )
                 {
-                        if (Producto_En_Edicion.Fotos is null) { throw new Exception("Se trato de lanzar el formulario Ver Fotos sin que el Producto en Edicion tenga fotos cargadas en el."); }
+                        if ( Fotos_Producto_Seleccionado is null) { throw new Exception("Se trato de lanzar el formulario Ver Fotos sin que el Producto en Edicion tenga fotos cargadas en el."); }
                         InitializeComponent();
 
-                        Fotos_Producto = Producto_En_Edicion.Fotos;
+                        Fotos_Producto = Fotos_Producto_Seleccionado ;
                         Popular_Seleccion_Fotos_DropDownList();
                 }
 

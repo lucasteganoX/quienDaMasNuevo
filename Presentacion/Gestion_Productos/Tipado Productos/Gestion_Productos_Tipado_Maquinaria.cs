@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Logica.Gestion_Productos;
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,9 +14,12 @@ namespace Presentacion.Gestion_Productos.Tipado_Productos
 {
         public partial class Gestion_Productos_Tipado_Maquinaria : Form
         {
-                public Gestion_Productos_Tipado_Maquinaria()
+                public Gestion_Productos_Tipado_Maquinaria(int? ID_Maquinaria = null)
                 {
                         InitializeComponent();
+
+                        if (ID_Maquinaria == null) { return; }
+                        Cargar_Maquinaria((int)ID_Maquinaria);
                 }
 
                 public bool Esta_Vacio
@@ -23,10 +28,14 @@ namespace Presentacion.Gestion_Productos.Tipado_Productos
                         {
                                 if (NumericUpDown_Ano_Adquisicion.Value == 2000)
                                 {
-                                        if (DropDownList_Tipo_Maquina.SelectedItem is null) { return true; }
-                                        if (TextBox_Marca.Text is null) { return true; }
-                                        if (TextBox_Numero_Serial is null) { return true; }
-                                        if (DropDownList_Historial_Propiedad is null) { return true; }
+                                        if
+                                        (
+                                            DropDownList_Tipo_Maquina.Text == "" &&
+                                            TextBox_Marca.Text == "" &&
+                                            TextBox_Modelo.Text == "" &&
+                                            TextBox_Numero_Serial.Text == "" &&
+                                            DropDownList_Historial_Propiedad.Text == ""
+                                        ) { return true; }
                                 }
                                 return false;
 
@@ -36,14 +45,38 @@ namespace Presentacion.Gestion_Productos.Tipado_Productos
                 public void Limpiar_Formulario()
                 {
                         SuspendLayout();
-                        DropDownList_Tipo_Maquina.SelectedItem = null;
-                        TextBox_Marca.Text = null;
-                        TextBox_Numero_Serial.Text = null;
-                        DropDownList_Historial_Propiedad.SelectedItem = null;
+                        DropDownList_Tipo_Maquina.SelectedIndex = -1;
+                        TextBox_Marca.Text = "";
+                        TextBox_Modelo.Text = "";
+                        TextBox_Numero_Serial.Text = "";
+                        DropDownList_Historial_Propiedad.SelectedIndex = -1;
                         CheckBox_Nueva.Checked = false;
                         NumericUpDown_Ano_Adquisicion.Value = 2000;
                         ResumeLayout(false);
 
+                }
+
+                public void Cargar_Maquinaria(int? ID_Maquinaria = null)
+                {
+                        DataTable? DataTable_Datos_Maquinaria;
+                        DataRow Datos_Maquinaria;
+
+                        if (ID_Maquinaria is null) { return; }
+
+                        DataTable_Datos_Maquinaria = (DataTable?)
+                        Procesamiento_Productos.Marshal_Get_Maquinaria((int)ID_Maquinaria);
+
+                        if (DataTable_Datos_Maquinaria is null) { return; }
+                        Datos_Maquinaria = DataTable_Datos_Maquinaria.Rows[0];
+
+                        // Se cargan los datos de la Maquinaria 
+                        DropDownList_Tipo_Maquina.Text = Datos_Maquinaria["Tipo_Maquinaria"].ToString();
+                        TextBox_Marca.Text = Datos_Maquinaria["Marca"].ToString();
+                        TextBox_Modelo.Text = Datos_Maquinaria["Modelo"].ToString();
+                        TextBox_Numero_Serial.Text = Datos_Maquinaria["Numero_Serie"].ToString();
+                        DropDownList_Historial_Propiedad.Text = Datos_Maquinaria["Historial_Propiedad"].ToString().Replace('_', ' ');
+                        CheckBox_Nueva.Checked = Convert.ToBoolean(Datos_Maquinaria["No_Tiene_Uso"]);
+                        NumericUpDown_Ano_Adquisicion.Value = Convert.ToInt32(Datos_Maquinaria["Ano_Adquisicion"]);
                 }
 
                 private void Gestion_Productos_Tipado_Maquinaria_FormClosing(object sender, FormClosingEventArgs e)
@@ -59,6 +92,7 @@ namespace Presentacion.Gestion_Productos.Tipado_Productos
 
                                 if (DropDownList_Tipo_Maquina.SelectedItem is null) { Formulario_Esta_Incompleto = true; Campos_Invalidos.AppendLine(" > No se selecciono un tipo de maquina."); }
                                 if (string.IsNullOrEmpty(TextBox_Marca.Text)) { Formulario_Esta_Incompleto = true; Campos_Invalidos.AppendLine(" > No se especifico la Marca de la maquina."); }
+                                if (string.IsNullOrEmpty(TextBox_Modelo.Text)) { Formulario_Esta_Incompleto = true; Campos_Invalidos.AppendLine(" > No se especifico el Modelo de la maquina."); }
                                 if (string.IsNullOrEmpty(TextBox_Numero_Serial.Text)) { Formulario_Esta_Incompleto = true; Campos_Invalidos.AppendLine(" > No se indico un Numero Serial para la maquina. Si no lo tiene, considere contactar con la empresa de la maquina."); }
                                 if (DropDownList_Historial_Propiedad.SelectedItem is null) { Formulario_Esta_Incompleto = true; Campos_Invalidos.AppendLine(" > No se indico el procedencia(Historial de Propiedad) de la maquina."); }
                                 if (NumericUpDown_Ano_Adquisicion.Value < 1800) { Formulario_Esta_Incompleto = true; Campos_Invalidos.AppendLine(" > La gente vive no mas ed 150 años, y las personas andaban en carretas en el 1800, cambia la fecha o considera verder la maquina en un remate de arte."); }

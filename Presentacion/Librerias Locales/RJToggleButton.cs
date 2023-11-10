@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 // usign System.Windows.Forms.Design.ControlDesigner ;
 using System.Drawing;
-using System.Drawing.Drawing2D;
+using System.Drawing.Drawing2D; 
 using System.ComponentModel;
 
 namespace Presentacion.Librerias_Locales

@@ -21,9 +21,9 @@ using Logica.Sistema_de_Usuarios;
  *      no se trata su funcionamiento.
  */
 
-namespace Presentacion.Formulario_Login
+namespace Presentacion.Login
 {
-        public partial class Formulario_Login
+        public partial class Login
         {
                 public CloseReason Motivo_Ceirre_Formulario ;
 
@@ -100,13 +100,13 @@ namespace Presentacion.Formulario_Login
                         {
                                 using ( System.Security.Cryptography.SHA256 sha256 = System.Security.Cryptography.SHA256.Create())
                                 {
-                                    byte[] Bytes_Contrasena = Encoding.UTF8.GetBytes( Contrasena );
-                                    byte[] Hash_Contrasena_En_Bytes = sha256.ComputeHash(Bytes_Contrasena);
+                                        byte[] Bytes_Contrasena = Encoding.UTF8.GetBytes( Contrasena );
+                                        byte[] Hash_Contrasena_En_Bytes = sha256.ComputeHash(Bytes_Contrasena);
 
-                                    StringBuilder builder = new StringBuilder();
-                                    for (int i = 0; i < Hash_Contrasena_En_Bytes.Length; i++) { builder.Append( Hash_Contrasena_En_Bytes[i].ToString("x2") ) ; } // Convierte a hexadecimal
+                                        StringBuilder builder = new StringBuilder();
+                                        for (int i = 0; i < Hash_Contrasena_En_Bytes.Length; i++) { builder.Append( Hash_Contrasena_En_Bytes[i].ToString("x2") ) ; } // Convierte a hexadecimal
 
-                                    return builder.ToString();
+                                        return builder.ToString();
                                 }
                         }
 
@@ -115,7 +115,5 @@ namespace Presentacion.Formulario_Login
 
                         return new Clase_Sujeto( Parametro_Construir_Sujeto_Inidentificado: true, Parametro_Nombre_Identificador_Usuario_Inidentificado: Nombre_Identificador, Parametro_Contrasena_Usuario_Inidentificado: Contrasena ) ;
                 }
-                       
-           
         }
 }

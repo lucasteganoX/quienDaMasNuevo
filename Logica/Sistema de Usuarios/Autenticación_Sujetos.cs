@@ -64,11 +64,11 @@ namespace Logica.Sistema_de_Usuarios
 
                         Console.WriteLine( $"Usuarios_Esta_Inactivo>> Nombre_Identificador_Usuario = { Nombre_Identificador_Usuario }" ) ;
                         Resultado_Busqueda =
-                        Acceso_Datos.Interfaz_Base_Datos.
+                        Interfaz_Base_Datos.
                                 Ejecutar
                                 (
                                    "select Inactivo from Usuarios where Nombre_Identificador = @Nombre_Identificador ;",
-                                   Acceso_Datos.Interfaz_Base_Datos.Tipos_Comando_Sql.Query_Escalar, // Al parecer el asunto esta con la query escalar...
+                                   Tipos_Comando_Sql.Query_Escalar, // Al parecer el asunto esta con la query escalar...
                                    Unico_Parametro_Query: "@Nombre_Identificador",
                                    Unico_Argumento_Query: Nombre_Identificador_Usuario
                                 ) ;

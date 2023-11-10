@@ -17,7 +17,7 @@ namespace Acceso_Datos
                         Acceso_Datos.Interfaz_Base_Datos.Ejecutar
                                 (
                                         "select * from Usuarios where Nombre_Identificador = @Nombre_Identificador and Contrasena = @Contrasena ;",
-                                        Acceso_Datos.Interfaz_Base_Datos.Tipos_Comando_Sql.Query,
+                                        Acceso_Datos.Tipos_Comando_Sql.Query,
                                         Parametros_Query: ( new string[] { "@Nombre_Identificador", "@Contrasena" } ),
                                         Argumentos_Query: ( new string[] { Nombre_Identificador_Usuario, Contrasena } )
                                 ) ;

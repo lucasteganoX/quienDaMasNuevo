@@ -1,0 +1,3 @@
+﻿Para que el programa no explote, debes procurar NO abrir la clase Login.Mirador.cs con el disenador de ventanas. Ya que eso genera dos archivos de recursos para la misma clase.
+Si ya lo hiciste, despliega la clase Login.Mirador.cs y elimina el archivo `.resx`.
+Creo que esto ocurre porque el archivo que contine el form se llama `Login` y este se llama `Login*.*Mirador` eso y que es una clase parcial de un form hace que visual lo quiera abrir como un form.

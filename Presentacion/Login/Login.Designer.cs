@@ -24,9 +24,9 @@ using System.Diagnostics ;
  *      coso haga algo.
  */
 
-namespace Presentacion.Formulario_Login
+namespace Presentacion.Login
 {
-        public partial class Formulario_Login
+        public partial class Login
         {
                 #region >>---- Parte Grafica Formulario ---------------------------
 
@@ -61,7 +61,7 @@ namespace Presentacion.Formulario_Login
                 /// </summary>
                 private void InitializeComponent()
                 {
-                        System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Formulario_Login));
+                        System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
                         Label_Titulo = new Label();
                         Label_Modo_Ingreso = new Label();
                         Label_Modo_Registro = new Label();
@@ -353,12 +353,11 @@ namespace Presentacion.Formulario_Login
                 */
 
                 #endregion >>---- Declaracion Componentes ------------------------
-
                 #region >>---- Parte Logica Formulario ----------------------------
 
                 public bool Intento_De_Continuar_En_Espera = false; // Este valor lo utilizará el Script para iniciar la secuencia de Ingreso o Registro
                                                                     // según corresponda.
-                public Formulario_Login()
+                public Login()
                 {
                         InitializeComponent();
                 }
@@ -558,11 +557,7 @@ namespace Presentacion.Formulario_Login
                         TextBox_Contrasena.PasswordChar = '•';
                 }
 
-
-                private void Button_Continuar_Click(object sender, EventArgs e)
-                {
-                        Intento_De_Continuar_En_Espera = true ;
-                }
+                private void Button_Continuar_Click(object sender, EventArgs e) { Continuar() ; }
 
                 #endregion >>---- Logica Formulario --------------------------------
         }

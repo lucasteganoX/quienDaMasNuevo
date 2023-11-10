@@ -1,15 +1,52 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>Library</OutputType>
+    <OutputType>WinExe</OutputType>
     <TargetFramework>net6.0-windows</TargetFramework>
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
+    <PlatformTarget>AnyCPU</PlatformTarget>
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Gestion_Productos\Efectos Sonido\Tono_Producto_Borrado.wav" />
+    <None Remove="Gestion_Productos\Efectos Sonido\Tono_Producto_Guardado.wav" />
+    <None Remove="Gestion_Productos\Efectos Sonido\Tono_Producto_Modificado.wav" />
+    <None Remove="Registro\Tono_Registrado.wav" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Gestion_Productos\Efectos Sonido\Tono_Producto_Borrado.wav" />
+    <EmbeddedResource Include="Gestion_Productos\Efectos Sonido\Tono_Producto_Guardado.wav" />
+    <EmbeddedResource Include="Gestion_Productos\Efectos Sonido\Tono_Producto_Modificado.wav" />
+    <EmbeddedResource Include="Registro\Tono_Registrado.wav" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="mercadopago-sdk" Version="2.3.4" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Logica\Logica.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Gestion_Remates\Buscar_Por_Elemento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
   </ItemGroup>
 
 </Project>

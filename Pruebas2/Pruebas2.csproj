@@ -6,10 +6,13 @@
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
+    <StartupObject>Prueba.Program_Prueba</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Acceso Datos\Acceso Datos.csproj" />
+    <ProjectReference Include="..\Logica\Logica.csproj" />
+    <ProjectReference Include="..\Presentacion\Presentacion.csproj" />
   </ItemGroup>
 
 </Project>

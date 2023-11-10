@@ -30,7 +30,7 @@
                 {
                         Label_Tipo_Animal = new Label();
                         DropDownList_Tipo_Animal = new ComboBox();
-                        Label_Nombre = new Label();
+                        Label_Sexo = new Label();
                         TextBox_Nombre = new TextBox();
                         Label_Edad = new Label();
                         Castrado = new Label();
@@ -42,8 +42,8 @@
                         NumericUpDown_Peso = new NumericUpDown();
                         Label_Especializacion = new Label();
                         DropDownList_Especializacion = new ComboBox();
-                        CheckBox_Nombre = new CheckBox();
                         CheckBox_Raza = new CheckBox();
+                        DropDownList_Sexo = new ComboBox();
                         ((System.ComponentModel.ISupportInitialize)NumericUpDown_Edad).BeginInit();
                         ((System.ComponentModel.ISupportInitialize)NumericUpDown_Peso).BeginInit();
                         SuspendLayout();
@@ -71,15 +71,14 @@
                         DropDownList_Tipo_Animal.TabIndex = 1;
                         DropDownList_Tipo_Animal.SelectedIndexChanged += DropDownList_Tipo_Animal_SelectedIndexChanged;
                         // 
-                        // Label_Nombre
+                        // Label_Sexo
                         // 
-                        Label_Nombre.AutoSize = true;
-                        Label_Nombre.Location = new Point(294, 198);
-                        Label_Nombre.Name = "Label_Nombre";
-                        Label_Nombre.Size = new Size(66, 20);
-                        Label_Nombre.TabIndex = 2;
-                        Label_Nombre.Text = "Nombre";
-                        Label_Nombre.Visible = false;
+                        Label_Sexo.AutoSize = true;
+                        Label_Sexo.Location = new Point(294, 196);
+                        Label_Sexo.Name = "Label_Sexo";
+                        Label_Sexo.Size = new Size(42, 20);
+                        Label_Sexo.TabIndex = 2;
+                        Label_Sexo.Text = "Sexo";
                         // 
                         // TextBox_Nombre
                         // 
@@ -87,11 +86,12 @@
                         TextBox_Nombre.Cursor = Cursors.IBeam;
                         TextBox_Nombre.Enabled = false;
                         TextBox_Nombre.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-                        TextBox_Nombre.Location = new Point(294, 221);
+                        TextBox_Nombre.Location = new Point(294, 292);
                         TextBox_Nombre.Name = "TextBox_Nombre";
                         TextBox_Nombre.PlaceholderText = "Deshabilitado";
                         TextBox_Nombre.Size = new Size(125, 27);
-                        TextBox_Nombre.TabIndex = 3;
+                        TextBox_Nombre.TabIndex = 999999999;
+                        TextBox_Nombre.TabStop = false;
                         TextBox_Nombre.Visible = false;
                         // 
                         // Label_Edad
@@ -120,7 +120,7 @@
                         CheckBox_Castrado.Location = new Point(142, 200);
                         CheckBox_Castrado.Name = "CheckBox_Castrado";
                         CheckBox_Castrado.Size = new Size(14, 13);
-                        CheckBox_Castrado.TabIndex = 7;
+                        CheckBox_Castrado.TabIndex = 3;
                         CheckBox_Castrado.UseVisualStyleBackColor = true;
                         // 
                         // Label_Raza
@@ -142,7 +142,7 @@
                         TextBox_Raza.MaxLength = 20;
                         TextBox_Raza.Name = "TextBox_Raza";
                         TextBox_Raza.Size = new Size(125, 27);
-                        TextBox_Raza.TabIndex = 9;
+                        TextBox_Raza.TabIndex = 5;
                         // 
                         // NumericUpDown_Edad
                         // 
@@ -152,7 +152,7 @@
                         NumericUpDown_Edad.Location = new Point(67, 144);
                         NumericUpDown_Edad.Name = "NumericUpDown_Edad";
                         NumericUpDown_Edad.Size = new Size(125, 27);
-                        NumericUpDown_Edad.TabIndex = 10;
+                        NumericUpDown_Edad.TabIndex = 2;
                         // 
                         // Label_Peso
                         // 
@@ -169,9 +169,10 @@
                         NumericUpDown_Peso.Cursor = Cursors.IBeam;
                         NumericUpDown_Peso.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
                         NumericUpDown_Peso.Location = new Point(294, 66);
+                        NumericUpDown_Peso.Maximum = new decimal(new int[] { 2000, 0, 0, 0 });
                         NumericUpDown_Peso.Name = "NumericUpDown_Peso";
                         NumericUpDown_Peso.Size = new Size(125, 27);
-                        NumericUpDown_Peso.TabIndex = 12;
+                        NumericUpDown_Peso.TabIndex = 6;
                         // 
                         // Label_Especializacion
                         // 
@@ -194,20 +195,7 @@
                         DropDownList_Especializacion.Location = new Point(294, 143);
                         DropDownList_Especializacion.Name = "DropDownList_Especializacion";
                         DropDownList_Especializacion.Size = new Size(127, 28);
-                        DropDownList_Especializacion.TabIndex = 14;
-                        // 
-                        // CheckBox_Nombre
-                        // 
-                        CheckBox_Nombre.AutoSize = true;
-                        CheckBox_Nombre.Cursor = Cursors.Hand;
-                        CheckBox_Nombre.FlatStyle = FlatStyle.Flat;
-                        CheckBox_Nombre.Location = new Point(366, 202);
-                        CheckBox_Nombre.Name = "CheckBox_Nombre";
-                        CheckBox_Nombre.Size = new Size(14, 13);
-                        CheckBox_Nombre.TabIndex = 15;
-                        CheckBox_Nombre.UseVisualStyleBackColor = true;
-                        CheckBox_Nombre.Visible = false;
-                        CheckBox_Nombre.CheckedChanged += CheckBox_Nombre_CheckedChanged;
+                        DropDownList_Especializacion.TabIndex = 7;
                         // 
                         // CheckBox_Raza
                         // 
@@ -217,17 +205,28 @@
                         CheckBox_Raza.Location = new Point(116, 243);
                         CheckBox_Raza.Name = "CheckBox_Raza";
                         CheckBox_Raza.Size = new Size(14, 13);
-                        CheckBox_Raza.TabIndex = 16;
+                        CheckBox_Raza.TabIndex = 4;
                         CheckBox_Raza.UseVisualStyleBackColor = true;
                         CheckBox_Raza.CheckedChanged += CheckBox_Raza_CheckedChanged;
+                        // 
+                        // DropDownList_Sexo
+                        // 
+                        DropDownList_Sexo.DropDownStyle = ComboBoxStyle.DropDownList;
+                        DropDownList_Sexo.FlatStyle = FlatStyle.Flat;
+                        DropDownList_Sexo.FormattingEnabled = true;
+                        DropDownList_Sexo.Items.AddRange(new object[] { "Macho", "Hembra" });
+                        DropDownList_Sexo.Location = new Point(294, 219);
+                        DropDownList_Sexo.Name = "DropDownList_Sexo";
+                        DropDownList_Sexo.Size = new Size(125, 28);
+                        DropDownList_Sexo.TabIndex = 8;
                         // 
                         // Gestion_Productos_Tipado_Animal
                         // 
                         AutoScaleDimensions = new SizeF(9F, 20F);
                         AutoScaleMode = AutoScaleMode.Font;
                         ClientSize = new Size(488, 350);
+                        Controls.Add(DropDownList_Sexo);
                         Controls.Add(CheckBox_Raza);
-                        Controls.Add(CheckBox_Nombre);
                         Controls.Add(DropDownList_Especializacion);
                         Controls.Add(Label_Especializacion);
                         Controls.Add(NumericUpDown_Peso);
@@ -239,7 +238,7 @@
                         Controls.Add(Castrado);
                         Controls.Add(Label_Edad);
                         Controls.Add(TextBox_Nombre);
-                        Controls.Add(Label_Nombre);
+                        Controls.Add(Label_Sexo);
                         Controls.Add(DropDownList_Tipo_Animal);
                         Controls.Add(Label_Tipo_Animal);
                         Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point);
@@ -270,5 +269,8 @@
                 internal NumericUpDown NumericUpDown_Peso;
                 internal ComboBox DropDownList_Especializacion;
                 internal CheckBox CheckBox_Raza;
+                private Label label1;
+                private Label Label_Sexo;
+                internal ComboBox DropDownList_Sexo;
         }
 }

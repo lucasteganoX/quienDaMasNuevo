@@ -51,6 +51,7 @@
                         TextBox_Nombre = new TextBox();
                         Label_Nombre = new Label();
                         GroupBox_Productos_En_El_Sistema = new GroupBox();
+                        Label_Modo_Admin = new Label();
                         DropDownList_Filtro_Busqueda = new ComboBox();
                         TextBox_Buscar = new TextBox();
                         Grilla_Productos = new DataGridView();
@@ -79,6 +80,7 @@
                         // Button_Eliminar
                         // 
                         Button_Eliminar.BackColor = Color.FromArgb(192, 0, 0);
+                        Button_Eliminar.Enabled = false;
                         Button_Eliminar.FlatAppearance.BorderColor = Color.Maroon;
                         Button_Eliminar.FlatAppearance.BorderSize = 3;
                         Button_Eliminar.FlatStyle = FlatStyle.Flat;
@@ -90,10 +92,12 @@
                         Button_Eliminar.TabIndex = 5;
                         Button_Eliminar.Text = "Eliminar";
                         Button_Eliminar.UseVisualStyleBackColor = false;
+                        Button_Eliminar.Click += Button_Eliminar_Click;
                         // 
                         // Button_Modificar
                         // 
                         Button_Modificar.BackColor = Color.Gold;
+                        Button_Modificar.Enabled = false;
                         Button_Modificar.FlatAppearance.BorderColor = Color.Goldenrod;
                         Button_Modificar.FlatAppearance.BorderSize = 3;
                         Button_Modificar.FlatStyle = FlatStyle.Flat;
@@ -121,6 +125,7 @@
                         Button_Guardar.TabIndex = 3;
                         Button_Guardar.Text = "Guardar";
                         Button_Guardar.UseVisualStyleBackColor = false;
+                        Button_Guardar.Click += Button_Guardar_Click;
                         // 
                         // GroupBox_Atributos_Producto
                         // 
@@ -156,7 +161,7 @@
                         CheckBox_Habilitado.Location = new Point(331, 201);
                         CheckBox_Habilitado.Name = "CheckBox_Habilitado";
                         CheckBox_Habilitado.Size = new Size(18, 17);
-                        CheckBox_Habilitado.TabIndex = 16;
+                        CheckBox_Habilitado.TabIndex = 7;
                         CheckBox_Habilitado.UseVisualStyleBackColor = true;
                         // 
                         // Label_Habilitado
@@ -178,7 +183,7 @@
                         NumericUpDown_Precio_Base.Maximum = new decimal(new int[] { int.MaxValue, 0, 0, 0 });
                         NumericUpDown_Precio_Base.Name = "NumericUpDown_Precio_Base";
                         NumericUpDown_Precio_Base.Size = new Size(125, 27);
-                        NumericUpDown_Precio_Base.TabIndex = 14;
+                        NumericUpDown_Precio_Base.TabIndex = 6;
                         // 
                         // Label_Precio_Base
                         // 
@@ -201,7 +206,7 @@
                         DropDownList_Tipado.Location = new Point(245, 304);
                         DropDownList_Tipado.Name = "DropDownList_Tipado";
                         DropDownList_Tipado.Size = new Size(151, 28);
-                        DropDownList_Tipado.TabIndex = 12;
+                        DropDownList_Tipado.TabIndex = 11;
                         DropDownList_Tipado.SelectedIndexChanged += DropDownList_Tipado_SelectedIndexChanged;
                         // 
                         // Button_Editar
@@ -213,7 +218,7 @@
                         Button_Editar.Location = new Point(245, 344);
                         Button_Editar.Name = "Button_Editar";
                         Button_Editar.Size = new Size(95, 29);
-                        Button_Editar.TabIndex = 11;
+                        Button_Editar.TabIndex = 12;
                         Button_Editar.Text = "Editar";
                         Button_Editar.UseVisualStyleBackColor = true;
                         Button_Editar.Click += Button_Editar_Click;
@@ -238,7 +243,7 @@
                         TextBox_Descripcion.Multiline = true;
                         TextBox_Descripcion.Name = "TextBox_Descripcion";
                         TextBox_Descripcion.Size = new Size(248, 102);
-                        TextBox_Descripcion.TabIndex = 9;
+                        TextBox_Descripcion.TabIndex = 4;
                         // 
                         // Label_Descripcion
                         // 
@@ -259,7 +264,7 @@
                         Button_Quitar_Fotos.Location = new Point(29, 344);
                         Button_Quitar_Fotos.Name = "Button_Quitar_Fotos";
                         Button_Quitar_Fotos.Size = new Size(88, 29);
-                        Button_Quitar_Fotos.TabIndex = 7;
+                        Button_Quitar_Fotos.TabIndex = 10;
                         Button_Quitar_Fotos.Text = "Quitar";
                         Button_Quitar_Fotos.UseVisualStyleBackColor = true;
                         Button_Quitar_Fotos.Click += Button_Quitar_Click;
@@ -272,7 +277,7 @@
                         Button_Seleccionar.Location = new Point(97, 309);
                         Button_Seleccionar.Name = "Button_Seleccionar";
                         Button_Seleccionar.Size = new Size(103, 29);
-                        Button_Seleccionar.TabIndex = 6;
+                        Button_Seleccionar.TabIndex = 9;
                         Button_Seleccionar.Text = "Seleccionar";
                         Button_Seleccionar.UseVisualStyleBackColor = true;
                         Button_Seleccionar.Click += Button_Seleccionar_Click;
@@ -286,7 +291,7 @@
                         Button_Ver_Fotos.Location = new Point(29, 309);
                         Button_Ver_Fotos.Name = "Button_Ver_Fotos";
                         Button_Ver_Fotos.Size = new Size(62, 29);
-                        Button_Ver_Fotos.TabIndex = 5;
+                        Button_Ver_Fotos.TabIndex = 8;
                         Button_Ver_Fotos.Text = "Ver";
                         Button_Ver_Fotos.UseVisualStyleBackColor = true;
                         Button_Ver_Fotos.Click += Button_Ver_Fotos_Click;
@@ -310,7 +315,7 @@
                         NumericUpDown_Valor.Maximum = new decimal(new int[] { int.MaxValue, 0, 0, 0 });
                         NumericUpDown_Valor.Name = "NumericUpDown_Valor";
                         NumericUpDown_Valor.Size = new Size(125, 27);
-                        NumericUpDown_Valor.TabIndex = 3;
+                        NumericUpDown_Valor.TabIndex = 5;
                         // 
                         // Label_Valor
                         // 
@@ -331,7 +336,7 @@
                         TextBox_Nombre.MaxLength = 20;
                         TextBox_Nombre.Name = "TextBox_Nombre";
                         TextBox_Nombre.Size = new Size(125, 27);
-                        TextBox_Nombre.TabIndex = 1;
+                        TextBox_Nombre.TabIndex = 3;
                         // 
                         // Label_Nombre
                         // 
@@ -345,6 +350,7 @@
                         // 
                         // GroupBox_Productos_En_El_Sistema
                         // 
+                        GroupBox_Productos_En_El_Sistema.Controls.Add(Label_Modo_Admin);
                         GroupBox_Productos_En_El_Sistema.Controls.Add(DropDownList_Filtro_Busqueda);
                         GroupBox_Productos_En_El_Sistema.Controls.Add(TextBox_Buscar);
                         GroupBox_Productos_En_El_Sistema.Controls.Add(Grilla_Productos);
@@ -355,7 +361,19 @@
                         GroupBox_Productos_En_El_Sistema.Size = new Size(475, 606);
                         GroupBox_Productos_En_El_Sistema.TabIndex = 3;
                         GroupBox_Productos_En_El_Sistema.TabStop = false;
-                        GroupBox_Productos_En_El_Sistema.Text = "Productos en el sistema";
+                        GroupBox_Productos_En_El_Sistema.Text = "Productos en el sistema || Tus Productos libres";
+                        // 
+                        // Label_Modo_Admin
+                        // 
+                        Label_Modo_Admin.AutoSize = true;
+                        Label_Modo_Admin.Font = new Font("Segoe UI", 7.8F, FontStyle.Bold, GraphicsUnit.Point);
+                        Label_Modo_Admin.ForeColor = Color.Green;
+                        Label_Modo_Admin.Location = new Point(23, 580);
+                        Label_Modo_Admin.Margin = new Padding(0);
+                        Label_Modo_Admin.Name = "Label_Modo_Admin";
+                        Label_Modo_Admin.Size = new Size(200, 17);
+                        Label_Modo_Admin.TabIndex = 6;
+                        Label_Modo_Admin.Text = "Modo Administrador: Activado";
                         // 
                         // DropDownList_Filtro_Busqueda
                         // 
@@ -381,6 +399,9 @@
                         // 
                         // Grilla_Productos
                         // 
+                        Grilla_Productos.AllowUserToAddRows = false;
+                        Grilla_Productos.AllowUserToDeleteRows = false;
+                        Grilla_Productos.AllowUserToOrderColumns = true;
                         Grilla_Productos.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
                         Grilla_Productos.Location = new Point(23, 76);
                         Grilla_Productos.MultiSelect = false;
@@ -445,5 +466,6 @@
                 private DataGridView Grilla_Productos;
                 private Label Label_Habilitado;
                 private CheckBox CheckBox_Habilitado;
+                private Label Label_Modo_Admin;
         }
 }
